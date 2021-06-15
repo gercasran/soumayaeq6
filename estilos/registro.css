@@ -1,0 +1,113 @@
+body{
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+    background-size: cover;
+    background-image: url(../media/imagenes/soumaya.jpg);
+}
+
+.menu {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #021543;
+    height: 90px;
+    position: sticky;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    top: 50%;
+    width: 50%;
+    margin-left: auto;
+}
+
+.menu2 {
+    top: 80px;
+    width: 40%;
+    background-color: #021643;
+    height: 40px;
+    color: #fff;
+    margin-left: 65%;
+    margin-right: auto;
+}
+
+.menu2>.boton {
+
+    font-weight: bold;
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+    float: left;
+}
+
+.boton>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.letra {
+    top: 30px;
+    width: 70%;
+    background-color: #021643;
+    height: 20px;
+    position: sticky;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.registroForm {
+    border: solid 3px;
+    margin-top: 3%;
+    width: 25%;
+    margin-left: auto;
+    overflow: hidden;
+    margin-right: auto;
+    margin-bottom: 3%;
+    opacity: 0.9;
+    background-color: #E4EAEC;
+}
+
+.registroForm p{
+  font-family: cursive;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.registroForm input, .registroForm label, select {
+   display: block;
+   margin-top: 3%;
+   margin-bottom: 3%;
+   width: 93%;
+   font: 1.1rem 'times new roman';
+   margin-left: 3%;
+}
+
+.registroForm label{
+   font: 1.2rem 'times new roman';
+   font-weight: bold;
+}
+
+.registroForm input[type="submit"] {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 25%;
+    width: 50%;
+    background-color: #021643;
+    color: #FFF;
+}
+
+.pie{
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    background-color: #000;
+    height: 150px;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}

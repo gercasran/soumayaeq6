@@ -1,0 +1,115 @@
+body{
+    
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.menu{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #021543;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo{
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo>a>img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu2{
+    top: 0px;
+    width: 100%;
+    background-color: #021643;
+    height: 75px;
+    position: sticky;
+    color: #fff;
+}
+
+.estado{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(88, 187, 121);
+    border: rgb(2, 105, 74) 1px solid;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.contenido{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 95%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.contenido>a>img{
+    width: 100%;
+}
+
+.menu2>.boton{
+    margin: 10px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    float: left;
+}
+
+.boton>a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.buscar{
+    position: absolute;
+    margin: 10px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    float: right;
+    top: 17px;
+    right: 20px;
+}
+
+#fname{
+    border: #fff 1px solid;
+}
+
+.pie{
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #000;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,211 @@
+body{
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+}
+
+p.clasificacion {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+p.clasificacion input {
+    position: absolute;
+    top: -100px;
+    vertical-align: top;
+}
+
+p.clasificacion label {
+    float: right;
+    color: #333;
+}
+
+p.clasificacion label:hover,
+p.clasificacion label:hover~label,
+p.clasificacion input:checked~label {
+    color: #e8b700;
+}
+
+
+.menu {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #021543;
+    height: 90px;
+    position: sticky;
+    overflow: hidden;
+}
+
+.logo {
+    position: relative;
+    top: 50%;
+    width: 50%;
+    margin-left: auto;
+}
+
+.menu2 {
+    top: 80px;
+    width: 40%;
+    background-color: #021643;
+    height: 40px;
+    color: #fff;
+    margin-left: 65%;
+    margin-right: auto;
+}
+
+.menu2>.boton {
+    
+    font-weight: bold;
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+    float: left;
+}
+
+.boton>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#fname {
+    border: #fff 1px solid;
+}
+
+.pie {
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #000;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+#idResenia {
+    margin: 20px;
+    border: #e87000 2px solid;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 200px;
+    border-color: transparent ;
+}
+
+#comentarios {
+    display: flex;
+    align-self: center;
+    margin-top: 10px;
+    align-content: center;
+}
+
+.letra {
+    top: 30px;
+    width: 70%;
+    background-color: #021643;
+    height: 20px;
+    position: sticky;
+    color: #fff;
+    margin-left: 50px;
+}
+
+#idClasificacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+#btnEnviar {
+    margin-top: 15px;
+    align-self: center;
+    margin-right: 40px;
+}
+.fecha{
+    text-align: left;
+}
+.comments{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: #e87000 2px solid;
+    height:750px;
+    width: 60%;
+    border-color: transparent;
+    
+}
+.general{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    display: flex;
+    border: #e87000 2px solid;
+    margin: 20px;
+    border-color: transparent;
+        
+}
+span{
+    text-align: center;
+    justify-content: center;
+}
+.Imagenes{
+   margin: 10px;
+   
+   margin-bottom: 10px;
+    border: #e87000 2px solid;
+    height:750px;       
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    border-color: transparent;
+
+}
+.Imagen1{
+    background-image: url(../media/imagenes/Imagen2.jpg);
+    width: 40%;
+    height: 250px;
+    border: #e87000 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-size: cover;
+    vertical-align: top;
+    border-color: transparent;
+}
+.Imagen2{
+    background-image: url(../media/imagenes/Imagen3.jpg);
+    width: 40%;
+    height: 250px;
+    border: #e87000 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-size: cover;
+    vertical-align: top;
+    border-color: transparent;
+}
+.Imagen3{
+    background-image: url(../media/imagenes/Imagen1.jpg);
+    width: 40%;
+    height: 250px;
+    border: #e87000 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-size: cover;
+    vertical-align: top;
+    border-color: transparent;
+}

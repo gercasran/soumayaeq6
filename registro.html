@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Registro | Museo Soumaya</title>
+    <link type="text/css" rel="stylesheet" href="./estilos/registro.css">
+    <link rel="shortcut icon" href="./media/iconos/soumaya.ico">
+  </head>
+  <body id="registro">
+    <div class="menu">
+        <div class="letra">
+            <a href="./">
+                <p class="letra">    MUSEO <br>SOUMAYA</p>
+            </a>
+        </div>
+
+        <div class="menu2">
+            <div class="boton">
+                <a href="./">
+                    <p class="Bmen">Inicio</p>
+                </a>
+            </div>
+            <div class="boton">
+                <a href="./galeria.html">
+                    <p class="Bmen">Galeria</p>
+                </a>
+            </div>
+            <div class="boton">
+                <a href="./galeria.html">
+                    <p class="Bmen">Exposiciones</p>
+                </a>
+            </div>
+            <div class="boton">
+                <a href="./resenia.html">
+                    <p class="Bmen">Reseñas</p>
+                </a>
+            </div>
+            <div class="boton">
+                <a href="./reserva.html">
+                    <p class="Bmen">Reserva</p>
+                </a>
+            </div>
+        </div>
+    </div>
+      <div class="registroForm">
+        <h2>Registro</h2>
+        <form class="" action="index.html" method="post">
+          <label for="nombre_">Nombre*</label>
+          <input type="text" id="nombre_" name="Nombre" placeholder="Ingrese su nombre" max="20" required>
+          <label for="edad_">Edad*</label>
+          <input type="number" id="edad_" min="1" max="120" name="Edad" value="4" required>
+          <label>Exposición de interes</label>
+          <select name="expo">
+            <option>Exposición 1</option>
+            <option>Exposición 2</option>
+            <option>Exposición 3</option>
+            <option>Exposición temporal</option>
+          </select>
+          <label for="email_">Correo Electrónico</label>
+          <input type="email" id="email" name="email"
+          max="255"  list="listaformatos"required>
+          <datalist id="listaformatos">
+            <option>.com</option>
+            <option>.mx</option>
+            <option>.com.mx</option>
+            <option>.org</option>
+          </datalist>
+          <label for="telefono_">Número de contacto</label>
+          <input type="text" id="telefono_" name="Telefono">
+          <label for="hora_">Hora de entrada*</label>
+          <input type="time" id="hora_" name="horaEntrada" required value="00:00">
+          <input type="submit" name="Enviar1" value="Registrar">
+        </form>
+      </div>
+      <div class="pie">
+        <div>
+            <a href=""><img src="./media/iconos/fb.png" width="70px" title="Facebook"></a>
+            <a href=""><img src="./media/iconos/ig.png" width="70px" title="Facebook"></a>
+        </div>
+        <p>Creado por el equipo 6 - Tecnologías para la web - 2021</p>
+      </div>
+  </body>
+</html>

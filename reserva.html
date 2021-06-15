@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva | Museo Soumaya</title>
+    <link rel="shortcut icon" href="./media/iconos/soumaya.ico">
+    <link rel="stylesheet" type="text/css" href="./estilos/reserva2.css">
+</head>
+
+<body>
+  <div class="menu">
+      <div class="letra">
+          <a href="./">
+              <p class="letra">    MUSEO <br>SOUMAYA</p>
+          </a>
+      </div>
+
+      <div class="menu2">
+          <div class="boton">
+              <a href="./">
+                  <p class="Bmen">Inicio</p>
+              </a>
+          </div>
+          <div class="boton">
+              <a href="./galeria.html">
+                  <p class="Bmen">Galeria</p>
+              </a>
+          </div>
+          <div class="boton">
+              <a href="./galeria.html">
+                  <p class="Bmen">Exposiciones</p>
+              </a>
+          </div>
+          <div class="boton">
+              <a href="./resenia.html">
+                  <p class="Bmen">Reseñas</p>
+              </a>
+          </div>
+          <div class="boton">
+              <a href="./reserva.html">
+                  <p class="Bmen">Reserva</p>
+              </a>
+          </div>
+          <div class="boton">
+            <a href="./registro.html">
+                <p class="Bmen">Regístrate</p>
+            </a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="Reserva">
+        <h1>Reserva:</h1>
+      <h3><font color="#3399FF">¡Gracias por tu interés en volver al museo!</font></h3>
+      <blockquote>
+        <p>Para poder ingresar al Museo Soumaya, es necesario llenar este formulario. Este registro es único. Al registrarte podrás seleccionar el día y hora para tu visita, según la disponibilidad. Para dar cumplimiento a las medidas de sanidad por la pandemia, tu visita solo podrá realizarse dentro de la franja asignada. </p>
+      </blockquote>
+      <h4>**Ten presente que las visitas son todos los días de la semana de 9:00 a. m. a 5:00 p. m.</h4>
+      <p>No olvides lo siguiente:</p>
+      <ul>
+        <li>¡Consulta la programación virtual que preparamos!</li>
+        <li>RECUERDA HACER <strong>UNA RESERVA TOTAL</strong>.</li>
+        <li>DEBES LLEGAR 15 MINUTOS ANTES DE LA HORA QUE PROGRAMES PARA REALIZAR TU VISITA. </li>
+        <li><strong>TODAS LAS SALAS DEL MUSEO tienen un aforo limitado por cuestiones de sanidad.</strong> </li>
+        </ul>
+        <p>¡Te esperamos!</p>
+      <p>&nbsp;</p>
+    </div>
+<form>
+    <div class="bloque center">
+        <div class="center izq">
+               <br>
+            <label for="Nombre">Nombre de quien reserva:</label>
+               <br>
+            <input type="text" name="nombre" id="Nombre" size="20" maxlength="45" placeholder="Coloque su nombre" required>
+               <br><br>
+            <label for="fechaEntrega">Fecha de reserva:</label>
+               <br>
+            <input type="date" id="fechaEntrega" name="fechaEntrega" step="1" min="2021-06-10" max="2021-12-31" required>
+            <br>
+        </div>
+        <div class="center der">
+                <br>
+            <label for="Nombre">Número de personas: </label>
+                <br>
+            <input type="text" name="nombre" id="Nombre" size="20" maxlength="45" placeholder="Coloque el no. de personas" required>
+                <br><br>
+            <label for="hora">Hora de reserva:</label><input type="time" id="hora" name="hora" min="09:00:00" max="16:30:00" required>
+                <br><br>
+           </div>
+    </div>
+           <div class="center enviar">
+            <input type="submit" name="enviar" value="Reservar" >
+           </div>
+    </form>
+    <br><br>
+<div class="pie">
+   <div>
+        <a href=""><img src="./media/iconos/fb.png" width="70px" title="Facebook"></a>
+        <a href=""><img src="./media/iconos/ig.png" width="70px" title="Facebook"></a>
+    </div>
+   <p>Creado por el equipo 6 - Tecnologías para la web - 2021</p>
+ </div>
+
+</body>
+</html>
